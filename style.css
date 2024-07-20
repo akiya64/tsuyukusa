@@ -3,5 +3,5 @@ Theme Name: Tsukikusa
 Text Domain: Tsukikusa
 */
 
-@import url( "normalize.css" );
-@import url( "sakura.css" );
+@import url( "css/normalize.css" );
+@import url( "css/tsukikusa.css" );
