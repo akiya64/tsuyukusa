@@ -39,10 +39,12 @@
     "vite": "^4.5.3"
   },
   "devDependencies": {
+    "browser-sync": "^3.0.2",
     "sass": "^1.77.8"
   },
   "scripts": {
-    "scss": "sass --no-source-map scss:css"
+    "scss": "sass --no-source-map scss:css",
+    "watch": "browser-sync start --proxy http://localhost:8888 --files=\"./**/*\""
   },
   "repository": {
     "type": "git",
