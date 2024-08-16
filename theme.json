@@ -5,5 +5,14 @@
 		"layout": {
 			"contentSize": "900px"
 		}
+	},
+	"styles": {
+		"elements": {
+			"link": {
+				"typography": {
+					"textDecoration": "none"
+				}
+			}
+		}
 	}
 }
