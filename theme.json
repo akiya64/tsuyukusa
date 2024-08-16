@@ -9,8 +9,10 @@
 	"styles": {
 		"elements": {
 			"link": {
-				"typography": {
-					"textDecoration": "none"
+				":hover": {
+					"border": {
+						"style": "none !important"
+					}
 				}
 			}
 		}
