@@ -4,6 +4,30 @@
 	"settings": {
 		"layout": {
 			"contentSize": "900px"
+		},
+		"color": {
+			"palette": [
+				{
+					"color": "#257bcc",
+					"name": "Tsuyukusa",
+					"slug": "tsuyukusa"
+				},
+				{
+					"color": "#274765",
+					"name": "Hukaki Hanada",
+					"slug": "hukaki-hanada"
+				},
+				{
+					"color": "#3f729f",
+					"name": "Nakano Hanada",
+					"slug": "nakano-hanada"
+				},
+				{
+					"color": "#618bad",
+					"name": "Tsugino Hanada",
+					"slug": "tsugino-hanada"
+				}
+			]
 		}
 	},
 	"styles": {
