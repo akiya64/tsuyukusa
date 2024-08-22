@@ -1,5 +1,5 @@
 {
-  "name": "tsukikusa",
+  "name": "tsuyukusa",
   "version": "0.0.1",
   "description": "WordPress theme for my blog blog.autumnsky.jp",
   "main": "style.css",
@@ -48,7 +48,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/akiya64/tsukikusa.git"
+    "url": "git+https://github.com/akiya64/tsuyukusa.git"
   },
   "keywords": [
     "WordPress",
@@ -58,7 +58,7 @@
   "author": "Akiya",
   "license": " GPL-2.0-or-later",
   "bugs": {
-    "url": "https://github.com/akiya64/tsukikusa/issues"
+    "url": "https://github.com/akiya64/tsuyukusa/issues"
   },
-  "homepage": "https://github.com/akiya64/tsukikusa#readme"
+  "homepage": "https://github.com/akiya64/tsuyukusa#readme"
 }
