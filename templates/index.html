@@ -1,8 +1,27 @@
-<!-- wp:query {"queryId":1,"query":{"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","sticky":""}} -->
-<div class="wp-block-query">
-	<!-- wp:post-template -->
-	<!-- wp:post-title {"isLink":true} /-->
-	<!-- wp:post-excerpt /-->
-	<!-- /wp:post-template -->
-</div>
+<!-- wp:template-part {"slug":"header","theme":"tsuyukusa"} /-->
+
+<!-- wp:query {"queryId":1,"query":{"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","sticky":"","perPage":12}} -->
+<div class="wp-block-query"><!-- wp:post-template {"layout":{"type":"default"}} -->
+<!-- wp:post-title {"isLink":true} /-->
+
+<!-- wp:post-date {"textAlign":"left"} /-->
+
+<!-- wp:spacer {"height":"20px"} -->
+<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+<!-- /wp:post-template -->
+
+<!-- wp:spacer {"height":"24px"} -->
+<div style="height:24px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+
+<!-- wp:query-pagination {"paginationArrow":"chevron","showLabel":false,"fontSize":"medium","layout":{"type":"flex","justifyContent":"center"}} -->
+<!-- wp:query-pagination-previous /-->
+
+<!-- wp:query-pagination-numbers {"style":{"typography":{"letterSpacing":"12px"}}} /-->
+
+<!-- wp:query-pagination-next /-->
+<!-- /wp:query-pagination -->
+
+<!-- wp:template-part {"slug":"wp-custom-part-3","theme":"tsuyukusa"} /--></div>
 <!-- /wp:query -->

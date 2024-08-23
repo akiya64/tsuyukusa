@@ -40,5 +40,13 @@
 				}
 			}
 		}
-	}
+	},
+	"templateParts": [
+		{
+			"name": "header",
+			"title": "Site Header",
+			"area": "header"
+		}
+	]
+	
 }
