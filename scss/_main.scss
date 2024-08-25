@@ -80,9 +80,8 @@ a {
 
     &:hover {
         color: $color-fade;
-        border-bottom: 2px solid $color-text;
+        text-decoration: underline dotted 0.075em;
     }
-
 }
 
 ul {

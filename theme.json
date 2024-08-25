@@ -3,7 +3,8 @@
 	"version": 3,
 	"settings": {
 		"layout": {
-			"contentSize": "900px"
+			"contentSize": "980px",
+			"wideSize": "1200px"
 		},
 		"color": {
 			"palette": [
@@ -11,6 +12,11 @@
 					"color": "#257bcc",
 					"name": "Tsuyukusa",
 					"slug": "tsuyukusa"
+				},
+				{
+					"color": "#21a0db",
+					"name": "Tsukikusa",
+					"slug": "tsukikusa"
 				},
 				{
 					"color": "#274765",
@@ -28,17 +34,6 @@
 					"slug": "tsugino-hanada"
 				}
 			]
-		}
-	},
-	"styles": {
-		"elements": {
-			"link": {
-				":hover": {
-					"border": {
-						"style": "none !important"
-					}
-				}
-			}
 		}
 	},
 	"templateParts": [

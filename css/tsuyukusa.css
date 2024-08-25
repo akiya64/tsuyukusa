@@ -87,7 +87,7 @@ a:visited {
 }
 a:hover {
   color: #436fb4;
-  border-bottom: 2px solid #222222;
+  text-decoration: underline dotted 0.075em;
 }
 
 ul {
