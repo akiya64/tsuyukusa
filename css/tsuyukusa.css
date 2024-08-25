@@ -224,3 +224,16 @@ label, legend, fieldset {
   margin-bottom: 0.5rem;
   font-weight: 600;
 }
+
+header .wp-block-site-title {
+  margin: 0;
+}
+header .wp-block-site-title {
+  font-size: 1.25em;
+}
+header .wp-block-site-title a:hover, header .wp-block-site-title a:visited {
+  color: inherit;
+}
+header .wp-block-site-title a:hover {
+  text-decoration: none;
+}

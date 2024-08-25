@@ -1,0 +1,21 @@
+// Specialized style for WordPress
+
+header {
+  .wp-block-site-title {
+    margin: 0;
+  }
+
+  .wp-block-site-title {
+    font-size: 1.25em;
+
+    a {
+      &:hover,
+      &:visited {
+        color: inherit;
+      }
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+}
