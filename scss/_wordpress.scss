@@ -19,3 +19,14 @@ header {
     }
   }
 }
+
+.wp-block-columns.is-not-stacked-on-mobile
+> .wp-block-column.grow-2 {
+  flex-grow: 2;
+}
+
+.alignfull {
+  width: 100vw;
+  margin-left: calc( 50% - 50vw );
+  overflow: hidden;
+}
