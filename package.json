@@ -40,11 +40,14 @@
   },
   "devDependencies": {
     "browser-sync": "^3.0.2",
+    "concurrently": "^8.2.2",
     "sass": "^1.77.8"
   },
   "scripts": {
     "scss": "sass --no-source-map scss:css",
-    "watch": "browser-sync start --proxy http://localhost:8888 --files=\"./**/*\""
+    "scss:watch": "sass --no-source-map --watch scss:css",
+    "watch": "concurrently \"npm:scss:watch\" \"npm:browser-sync\"",
+    "browser-sync": "browser-sync start --proxy http://localhost:8888 --files=\"./css/*\" --files=\"./theme.json\""
   },
   "repository": {
     "type": "git",
