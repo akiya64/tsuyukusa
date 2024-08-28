@@ -238,6 +238,14 @@ header .wp-block-site-title a:hover {
   text-decoration: none;
 }
 
+.wp-block-navigation__responsive-container-content {
+  gap: 1em;
+}
+
+li.wp-block-navigation-item {
+  margin-bottom: 0;
+}
+
 .wp-block-columns.is-not-stacked-on-mobile > .wp-block-column.grow-2 {
   flex-grow: 2;
 }
