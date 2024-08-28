@@ -247,3 +247,7 @@ header .wp-block-site-title a:hover {
   margin-left: calc(50% - 50vw);
   overflow: hidden;
 }
+
+.mb-0 {
+  margin-bottom: 0;
+}

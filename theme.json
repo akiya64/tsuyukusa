@@ -4,7 +4,11 @@
 	"settings": {
 		"layout": {
 			"contentSize": "980px",
-			"wideSize": "1200px"
+			"wideSize": "1200px",
+			"blockGap": true
+		},
+		"spacing": {
+			"margin": true
 		},
 		"color": {
 			"palette": [
