@@ -10,6 +10,15 @@
 		"spacing": {
 			"margin": true
 		},
+		"typography": {
+			"fontFamilies": [
+				{
+					"fontFamily": "monofur, sans-serif",
+					"slug": "monofur",
+					"name": "Monofur"
+				}
+			]
+		},
 		"color": {
 			"palette": [
 				{
@@ -47,5 +56,4 @@
 			"area": "header"
 		}
 	]
-	
 }

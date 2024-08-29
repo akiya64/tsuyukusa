@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "monofur";
+  src: url("../fonts/monofur.woff2") format("woff2");
+}
 /* Sakura.css v1.5.0
  * ================
  * Minimal css theme.

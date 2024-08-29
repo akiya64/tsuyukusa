@@ -11,6 +11,12 @@ $font-family-base: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragi
 
 $font-family-heading: $font-family-base;
 
+@font-face {
+  font-family: "monofur";
+  src:
+    url("../fonts/monofur.woff2") format("woff2"),
+}
+
 @import "main";
 @import "wordpress";
 
