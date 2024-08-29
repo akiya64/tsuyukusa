@@ -47,7 +47,7 @@
     "scss": "sass --no-source-map scss:css",
     "scss:watch": "sass --no-source-map --watch scss:css",
     "watch": "concurrently \"npm:scss:watch\" \"npm:browser-sync\"",
-    "browser-sync": "browser-sync start --proxy http://localhost:8888 --files=\"./css/*\" --files=\"./theme.json\""
+    "browser-sync": "browser-sync start --proxy http://localhost:8888 --files=\"./css/tsuyukusa.css\" --files=\"./theme.json\"",
   },
   "repository": {
     "type": "git",
