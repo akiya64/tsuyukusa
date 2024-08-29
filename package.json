@@ -41,13 +41,15 @@
   "devDependencies": {
     "browser-sync": "^3.0.2",
     "concurrently": "^8.2.2",
-    "sass": "^1.77.8"
+    "sass": "^1.77.8",
+    "ttf2woff2": "^6.0.1"
   },
   "scripts": {
     "scss": "sass --no-source-map scss:css",
     "scss:watch": "sass --no-source-map --watch scss:css",
     "watch": "concurrently \"npm:scss:watch\" \"npm:browser-sync\"",
     "browser-sync": "browser-sync start --proxy http://localhost:8888 --files=\"./css/tsuyukusa.css\" --files=\"./theme.json\"",
+    "woff": "node ./src/fonts/convertWoff2.js"
   },
   "repository": {
     "type": "git",
