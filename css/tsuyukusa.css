@@ -1,6 +1,6 @@
 @font-face {
   font-family: "monofur";
-  src: url("../fonts/monofur.woff2") format("woff2");
+  src: url("../fonts/monofur.woff2") format("woff2"), url("../fonts/monofur.ttf") format("ttf");
 }
 /* Sakura.css v1.5.0
  * ================
