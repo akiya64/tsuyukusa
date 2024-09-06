@@ -87,11 +87,10 @@ a {
   color: #257bcc;
 }
 a:visited {
-  color: #154776;
+  color: #1d61a1;
 }
 a:hover {
   color: #436fb4;
-  text-decoration: underline dotted 0.075em;
 }
 
 ul {

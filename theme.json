@@ -55,5 +55,19 @@
 			"title": "Site Header",
 			"area": "header"
 		}
-	]
+	],
+	"styles": {
+		"elements": {
+			"link": {
+				"typography": {
+					"textDecoration": "none"
+				},
+				":hover": {
+					"typography": {
+						"textDecoration": "underline dotted 0.075em"
+					}
+				}
+			}
+		}
+	}
 }

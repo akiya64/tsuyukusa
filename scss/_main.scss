@@ -75,12 +75,11 @@ a {
     color: $color-blossom;
 
     &:visited {
-        color: darken($color-blossom, 20%);
+        color: darken($color-blossom, 10%);
     }
 
     &:hover {
         color: $color-fade;
-        text-decoration: underline dotted 0.075em;
     }
 }
 
@@ -195,7 +194,7 @@ textarea {
         color: $color-bg;
         outline: 0;
     }
-    
+
     &:focus-visible {
         outline-style: solid;
         outline-width: 2px;
