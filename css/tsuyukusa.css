@@ -228,10 +228,26 @@ label, legend, fieldset {
   font-weight: 600;
 }
 
-header .wp-block-site-title {
+header .wp-block-columns {
   margin: 0;
 }
+@media screen and (max-width: 600px) {
+  header .wp-block-columns {
+    padding: 1.25rem;
+  }
+}
+@media screen and (min-width: 601px) {
+  header .wp-block-columns.is-not-stacked-on-mobile > .wp-block-column:has(.wp-block-navigation__responsive-container-content) {
+    flex-grow: 2;
+  }
+}
+@media screen and (max-width: 600px) {
+  header .wp-block-columns.is-not-stacked-on-mobile > .wp-block-column:has(.wp-block-site-title) {
+    flex-grow: 2;
+  }
+}
 header .wp-block-site-title {
+  margin: 0;
   font-size: 1.25em;
 }
 header .wp-block-site-title a:hover, header .wp-block-site-title a:visited {
@@ -241,24 +257,16 @@ header .wp-block-site-title a:hover {
   text-decoration: none;
 }
 
-.wp-block-navigation__responsive-container-content {
-  gap: 1em;
-}
-
 li.wp-block-navigation-item {
   margin-bottom: 0;
 }
 
-.wp-block-columns.is-not-stacked-on-mobile > .wp-block-column.grow-2 {
-  flex-grow: 2;
+.wp-block-navigation__responsive-container-content {
+  gap: 1em;
 }
 
 .alignfull {
   width: 100vw;
   margin-left: calc(50% - 50vw);
   overflow: hidden;
-}
-
-.mb-0 {
-  margin-bottom: 0;
 }
