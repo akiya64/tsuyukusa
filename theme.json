@@ -22,12 +22,7 @@
 		"color": {
 			"palette": [
 				{
-					"color": "#257bcc",
-					"name": "bright hanada",
-					"slug": "bright-hanada"
-				},
-				{
-					"color": "#007fc4",
+					"color": "#3d7cce",
 					"name": "露草色 Tsuyukusa",
 					"slug": "tsuyukusa"
 				},
@@ -87,9 +82,20 @@
 				"typography": {
 					"textDecoration": "none"
 				},
+				"color": {
+					"text": "var(--wp--preset--color--tsuyukusa)"
+				},
 				":hover": {
 					"typography": {
 						"textDecoration": "underline dotted 0.075em"
+					},
+					"color": {
+						"text": "var(--wp--preset--color--hanada)"
+					}
+				},
+				":visited": {
+					"color": {
+						"text": "var(--wp--preset--color--bengara)"
 					}
 				}
 			}

@@ -82,17 +82,20 @@ hr {
   border-color: #257bcc;
 }
 
+/*
 a {
-  text-decoration: none;
-  color: #257bcc;
-}
-a:visited {
-  color: #1d61a1;
-}
-a:hover {
-  color: #436fb4;
-}
+    text-decoration: none;
+    color: $color-blossom;
 
+    &:visited {
+        color: darken($color-blossom, 10%);
+    }
+
+    &:hover {
+        color: $color-fade;
+    }
+}
+*/
 ul {
   padding-left: 1.4em;
   margin-top: 0px;
@@ -226,6 +229,12 @@ label, legend, fieldset {
   display: block;
   margin-bottom: 0.5rem;
   font-weight: 600;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    width: calc(100vw - 2.5em);
+  }
 }
 
 header .wp-block-columns {

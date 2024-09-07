@@ -11,6 +11,12 @@ $breakpoints: (
   }
 }
 
+body {
+  @include mq( only-sm ){
+    width: calc( 100vw - 2.5em );
+  }
+}
+
 header {
   .wp-block-columns {
     margin: 0;
