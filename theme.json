@@ -23,28 +23,53 @@
 			"palette": [
 				{
 					"color": "#257bcc",
-					"name": "Tsuyukusa",
+					"name": "bright hanada",
+					"slug": "bright-hanada"
+				},
+				{
+					"color": "#007fc4",
+					"name": "露草色 Tsuyukusa",
 					"slug": "tsuyukusa"
 				},
 				{
 					"color": "#21a0db",
-					"name": "Tsukikusa",
+					"name": "月草色 - Tsukikusa",
 					"slug": "tsukikusa"
 				},
 				{
+					"color": "#3a8fb7",
+					"name": "千草色 - Chigusa iro",
+					"slug": "chigurairo"
+				},
+				{
+					"color": "#2b6492",
+					"name": "縹 - Hanada",
+					"slug": "hanada"
+				},
+				{
+					"color": "#dff2fc",
+					"name": "白縹 - Shiro Hanada",
+					"slug": "shiro-hanada"
+				},
+				{
 					"color": "#274765",
-					"name": "Hukaki Hanada",
-					"slug": "hukaki-hanada"
+					"name": "深縹 - Koki Hanada",
+					"slug": "koki-hanada"
 				},
 				{
 					"color": "#3f729f",
-					"name": "Nakano Hanada",
-					"slug": "nakano-hanada"
+					"name": "中縹 - Naka Hanada",
+					"slug": "naka-hanada"
 				},
 				{
 					"color": "#618bad",
-					"name": "Tsugino Hanada",
+					"name": "次縹 - Tsugi Hanada",
 					"slug": "tsugino-hanada"
+				},
+				{
+					"color": "#873d34",
+					"name": "弁柄色 - Bengara iro",
+					"slug": "bengara"
 				}
 			]
 		}
