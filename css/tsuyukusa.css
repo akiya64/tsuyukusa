@@ -20,7 +20,6 @@ body {
   margin: auto;
   color: #222222;
   background-color: #ffffff;
-  padding: 13px;
 }
 
 @media (max-width: 684px) {
@@ -147,13 +146,14 @@ code, kbd, samp {
   white-space: pre-wrap;
 }
 
+/*
 pre > code {
-  padding: 0;
-  background-color: transparent;
-  white-space: pre;
-  font-size: 1em;
+    padding: 0;
+    background-color: transparent;
+    white-space: pre;
+    font-size: 1em;
 }
-
+*/
 /* Tables */
 table {
   text-align: justify;
@@ -269,9 +269,17 @@ header .wp-block-site-title a:hover {
 li.wp-block-navigation-item {
   margin-bottom: 0;
 }
+@media screen and (max-width: 600px) {
+  li.wp-block-navigation-item {
+    font-size: 1.5rem;
+  }
+}
 
 .wp-block-navigation__responsive-container-content {
   gap: 1em;
+}
+.wp-block-navigation__responsive-container.has-modal-open.is-menu-open {
+  padding: 1.5rem;
 }
 
 .alignfull {
