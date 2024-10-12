@@ -269,11 +269,6 @@ header .wp-block-site-title a:hover {
 li.wp-block-navigation-item {
   margin-bottom: 0;
 }
-@media screen and (max-width: 600px) {
-  li.wp-block-navigation-item {
-    font-size: 1.5rem;
-  }
-}
 
 .wp-block-navigation__responsive-container-content {
   gap: 1em;
@@ -286,4 +281,9 @@ li.wp-block-navigation-item {
   width: 100vw;
   margin-left: calc(50% - 50vw);
   overflow: hidden;
+}
+
+.wp-block-query-pagination-numbers > .page-numbers {
+  display: inline-block;
+  padding: 0 0.5em;
 }

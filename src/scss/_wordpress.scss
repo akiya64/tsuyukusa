@@ -79,3 +79,11 @@ li.wp-block-navigation-item {
   margin-left: calc( 50% - 50vw );
   overflow: hidden;
 }
+
+//pagination
+.wp-block-query-pagination-numbers {
+  > .page-numbers {
+    display: inline-block;
+    padding: 0 0.5em;
+  }
+}
