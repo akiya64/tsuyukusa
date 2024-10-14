@@ -294,3 +294,18 @@ li.wp-block-navigation-item {
   display: inline-block;
   padding: 0 0.5em;
 }
+
+textarea, select, input,
+.wp-block-search__button {
+  border-radius: 5px;
+}
+
+select {
+  padding: 1em 2em;
+}
+
+footer select {
+  background: white;
+  border: 2px solid var(--wp--preset--color--tsuyukusa);
+  color: var(--wp--preset--color--koki-hanada);
+}
