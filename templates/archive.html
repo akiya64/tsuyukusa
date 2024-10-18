@@ -1,0 +1,37 @@
+<!-- wp:template-part {"slug":"header","theme":"tsuyukusa"} /-->
+<!-- wp:query-title {"type":"archive","showPrefix":false,"style":{"elements":{"link":{"color":{"text":"var:preset|color|naka-hanada"}}},"spacing":{"margin":{"bottom":"var:preset|spacing|40"}}},"textColor":"naka-hanada"} /-->
+
+<!-- wp:query {"queryId":8,"query":{"perPage":12,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true},"layout":{"type":"constrained"}} -->
+<div class="wp-block-query">
+
+<!-- wp:post-template -->
+<!-- wp:post-title {"isLink":true} /-->
+
+<!-- wp:post-date {"style":{"spacing":{"margin":{"right":"0","left":"0","top":"0","bottom":"var:preset|spacing|50"}}}} /-->
+<!-- /wp:post-template -->
+
+<!-- wp:query-pagination {"paginationArrow":"chevron","showLabel":false,"layout":{"type":"flex","justifyContent":"center"}} -->
+<!-- wp:query-pagination-previous /-->
+
+<!-- wp:query-pagination-numbers /-->
+
+<!-- wp:query-pagination-next /-->
+<!-- /wp:query-pagination -->
+
+<!-- wp:query-no-results -->
+<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<div class="wp-block-group"><!-- wp:paragraph {"placeholder":"クエリーが結果を返さない場合に表示するテキスト、またはブロックを追加してください。"} -->
+<p>投稿がありませんでした。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons {"layout":{"type":"flex","flexWrap":"wrap","orientation":"vertical"}} -->
+<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"tsuyukusa"} -->
+<div class="wp-block-button"><a class="wp-block-button__link has-tsuyukusa-background-color has-background wp-element-button" rel="/"> 最新の投稿へ</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
+<!-- /wp:group -->
+<!-- /wp:query-no-results --></div>
+<!-- /wp:query -->
+
+
+<!-- wp:template-part {"slug":"footer","theme":"tsuyukusa"} /-->
