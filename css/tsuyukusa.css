@@ -300,12 +300,12 @@ textarea, select, input,
   border-radius: 5px;
 }
 
-select {
-  padding: 1em 2em;
+footer {
+  margin-top: 1.5em;
 }
-
 footer select {
+  color: var(--wp--preset--color--koki-hanada);
+  padding: 1em 2em;
   background: white;
   border: 2px solid var(--wp--preset--color--tsuyukusa);
-  color: var(--wp--preset--color--koki-hanada);
 }
