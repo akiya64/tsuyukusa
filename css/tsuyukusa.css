@@ -244,33 +244,48 @@ label, legend, fieldset {
   }
 }
 
-header .wp-block-columns {
+.wp-site-blocks > header .wp-block-columns {
   margin: 0;
 }
 @media screen and (max-width: 600px) {
-  header .wp-block-columns {
+  .wp-site-blocks > header .wp-block-columns {
     padding: 1.25rem;
   }
 }
 @media screen and (min-width: 601px) {
-  header .wp-block-columns.is-not-stacked-on-mobile > .wp-block-column:has(.wp-block-navigation__responsive-container-content) {
+  .wp-site-blocks > header .wp-block-columns.is-not-stacked-on-mobile > .wp-block-column:has(.wp-block-navigation__responsive-container-content) {
     flex-grow: 2;
   }
 }
 @media screen and (max-width: 600px) {
-  header .wp-block-columns.is-not-stacked-on-mobile > .wp-block-column:has(.wp-block-site-title) {
+  .wp-site-blocks > header .wp-block-columns.is-not-stacked-on-mobile > .wp-block-column:has(.wp-block-site-title) {
     flex-grow: 2;
   }
 }
-header .wp-block-site-title {
+.wp-site-blocks > header .wp-block-site-title {
   margin: 0;
   font-size: 1.25em;
 }
-header .wp-block-site-title a:hover, header .wp-block-site-title a:visited {
+.wp-site-blocks > header .wp-block-site-title a:hover, .wp-site-blocks > header .wp-block-site-title a:visited {
   color: inherit;
 }
-header .wp-block-site-title a:hover {
+.wp-site-blocks > header .wp-block-site-title a:hover {
   text-decoration: none;
+}
+
+.wp-site-blocks {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+.wp-site-blocks > footer {
+  margin-top: auto;
+}
+.wp-site-blocks > footer select {
+  color: var(--wp--preset--color--koki-hanada);
+  padding: 1em 2em;
+  background: white;
+  border: 2px solid var(--wp--preset--color--tsuyukusa);
 }
 
 li.wp-block-navigation-item {
@@ -298,14 +313,4 @@ li.wp-block-navigation-item {
 textarea, select, input,
 .wp-block-search__button {
   border-radius: 5px;
-}
-
-footer {
-  margin-top: 1.5em;
-}
-footer select {
-  color: var(--wp--preset--color--koki-hanada);
-  padding: 1em 2em;
-  background: white;
-  border: 2px solid var(--wp--preset--color--tsuyukusa);
 }
