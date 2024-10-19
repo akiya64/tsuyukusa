@@ -21,3 +21,12 @@ add_action(
 	}
 );
 
+add_action(
+	'pre_get_posts',
+	function( $query ){
+		if ( $query->is_main_query() && is_date() ){
+			set_query_var( 'order', 'asc' );
+		}
+		return;
+	}
+);
