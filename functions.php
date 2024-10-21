@@ -30,3 +30,12 @@ add_action(
 		return;
 	}
 );
+
+register_block_style(
+	'core/avatar',
+	array(
+		'name'         => 'circle',
+		'label'        => __( '円', 'tsuyukusa' ),
+		'inline_style' => '.wp-block-avatar.is-style-circle > img { border-radius: 50%; }',
+	)
+);

@@ -20,6 +20,9 @@
 				}
 			]
 		},
+		"border": {
+			"radius": true
+		},
 		"color": {
 			"palette": [
 				{
@@ -104,6 +107,13 @@
 						"text": "var(--wp--preset--color--bengara)"
 					}
 				}
+			}
+		}
+	},
+	"blocks": {
+		"core/avatar": {
+			"border": {
+				"radius": true
 			}
 		}
 	}
