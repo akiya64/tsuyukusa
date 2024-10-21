@@ -3,7 +3,7 @@
 	"version": 3,
 	"settings": {
 		"layout": {
-			"contentSize": "980px",
+			"contentSize": "720px",
 			"wideSize": "1200px",
 			"blockGap": true
 		},

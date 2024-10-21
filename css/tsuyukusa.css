@@ -16,7 +16,7 @@ html {
 body {
   font-size: 1.8rem;
   line-height: 1.618;
-  max-width: 38em;
+  max-width: var(--wp--style--global--content-size);
   margin: auto;
   color: #222222;
   background-color: #ffffff;
