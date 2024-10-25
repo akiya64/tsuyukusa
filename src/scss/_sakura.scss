@@ -16,10 +16,8 @@ body {
     font-size: $font-size-base;
     line-height: 1.618;
     //max-width: 38em;
-    max-width: var(--wp--style--global--content-size);
     margin: auto;
     color: $color-text;
-    background-color: $color-bg;
     //padding: 13px;
 }
 
