@@ -6,7 +6,7 @@ add_action(
 	function () {
 		wp_enqueue_style(
 			'tsuyukusa',
-			get_stylesheet_uri()
+			get_stylesheet_directory_uri() . '/css/tsuyukusa.css',
 		);
 
 		wp_enqueue_script(
