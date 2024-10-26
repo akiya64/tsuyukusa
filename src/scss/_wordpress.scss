@@ -107,6 +107,11 @@ li.wp-block-navigation-item {
   }
 }
 
+// code
+.wp-block-code > code {
+  font-family: 'IBM Plex Mono', monospace;
+}
+
 textarea, select, input,
 .wp-block-search__button {
     border-radius: 5px;

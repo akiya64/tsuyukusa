@@ -2,6 +2,10 @@
   font-family: "monofur";
   src: url("../fonts/monofur.woff2") format("woff2"), url("../fonts/monofur.ttf") format("ttf");
 }
+@font-face {
+  font-family: "IBM Plex Mono";
+  src: url("../fonts/IBMPlexMono-Regular.woff2") format("woff2"), url("../fonts/IBMPlexMono-Regular.woff") format("woff");
+}
 /* Sakura.css v1.5.0
  * ================
  * Minimal css theme.
@@ -308,7 +312,15 @@ li.wp-block-navigation-item {
   padding: 0 0.5em;
 }
 
+.wp-block-code > code {
+  font-family: "IBM Plex Mono", monospace;
+}
+
 textarea, select, input,
 .wp-block-search__button {
   border-radius: 5px;
+}
+
+pre > code {
+  font-family: "IBM Plex Mono", mono;
 }

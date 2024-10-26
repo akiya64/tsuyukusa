@@ -17,6 +17,12 @@ $font-family-heading: $font-family-base;
   url("../fonts/monofur.ttf") format("ttf");
 }
 
+@font-face {
+  font-family: "IBM Plex Mono";
+  src: url("../fonts/IBMPlexMono-Regular.woff2") format("woff2"),
+  url("../fonts/IBMPlexMono-Regular.woff") format("woff");
+}
+
 @import "sakura";
 @import "wordpress";
 
