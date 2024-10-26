@@ -130,19 +130,20 @@ pre {
 
 code, kbd, samp {
     font-size: 0.9em;
-    padding: 0 0.5em;
-    background-color: $color-bg-alt;
+    // padding: 0 0.5em;
+    padding: 0.2em 0.5em;
+    background-color: $color-bg-inline-code;
     white-space: pre-wrap;
+    border-radius: 0.2em;
 }
 
-/*
 pre > code {
     padding: 0;
     background-color: transparent;
     white-space: pre;
     font-size: 1em;
+    border-radius: 0;
 }
-*/
 
 /* Tables */
 
