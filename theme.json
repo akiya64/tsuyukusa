@@ -17,6 +17,11 @@
 					"fontFamily": "monofur, sans-serif",
 					"slug": "monofur",
 					"name": "Monofur"
+				},
+				{
+					"fontFamily": "IBM Plex Mono, sans-serif",
+					"slug": "ibm-plex-mono",
+					"name": "IBMPlex Mono"
 				}
 			]
 		},
@@ -106,6 +111,13 @@
 					"color": {
 						"text": "var(--wp--preset--color--bengara)"
 					}
+				}
+			}
+		},
+		"blocks": {
+			"core/code": {
+				"typography": {
+					"fontFamily": "var:preset|font-family|ibm-plex-mono"
 				}
 			}
 		}

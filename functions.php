@@ -1,5 +1,6 @@
 <?php
 add_editor_style( '/css/editor-style.css');
+add_editor_style( '/css/prism.css');
 
 add_action(
 	'wp_enqueue_scripts',
