@@ -97,19 +97,19 @@
 					"textDecoration": "none"
 				},
 				"color": {
-					"text": "var(--wp--preset--color--tsuyukusa)"
+					"text": "var:preset|color|tsuyukusa"
 				},
 				":hover": {
 					"typography": {
 						"textDecoration": "underline dotted 0.075em"
 					},
 					"color": {
-						"text": "var(--wp--preset--color--hanada)"
+						"text": "var:preset|color|hanada"
 					}
 				},
 				":visited": {
 					"color": {
-						"text": "var(--wp--preset--color--bengara)"
+						"text": "var:preset|color|bengara"
 					}
 				}
 			}
@@ -118,6 +118,20 @@
 			"core/code": {
 				"typography": {
 					"fontFamily": "var:preset|font-family|ibm-plex-mono"
+				}
+			},
+			"core/site-title": {
+				"elements" : {
+					"link": {
+						"typography": {
+							"textDecoration": "none"
+						},
+						":hover": {
+							"typography": {
+								"textDecoration": "none"
+							}
+						}
+					}
 				}
 			}
 		}

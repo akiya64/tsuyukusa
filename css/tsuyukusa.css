@@ -265,16 +265,6 @@ label, legend, fieldset {
     flex-grow: 2;
   }
 }
-.wp-site-blocks > header .wp-block-site-title {
-  margin: 0;
-  font-size: 1.25em;
-}
-.wp-site-blocks > header .wp-block-site-title a:hover, .wp-site-blocks > header .wp-block-site-title a:visited {
-  color: inherit;
-}
-.wp-site-blocks > header .wp-block-site-title a:hover {
-  text-decoration: none;
-}
 
 .wp-site-blocks {
   display: flex;

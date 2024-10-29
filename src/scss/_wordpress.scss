@@ -41,21 +41,6 @@ body {
       }
     }
   }
-
-  .wp-block-site-title {
-    margin: 0;
-    font-size: 1.25em;
-
-    a {
-      &:hover,
-      &:visited {
-        color: inherit;
-      }
-      &:hover {
-        text-decoration: none;
-      }
-    }
-  }
 }
 
 // Sticky window at bottom when few content
@@ -88,7 +73,6 @@ li.wp-block-navigation-item {
 
   &.has-modal-open.is-menu-open {
     padding: 1.5rem;
-
   }
 }
 
