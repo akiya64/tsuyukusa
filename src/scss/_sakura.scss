@@ -14,7 +14,8 @@ html {
 body {
     // $font-size-base must be a rem value
     font-size: $font-size-base;
-    line-height: 1.618;
+    //line-height: 1.618;
+    line-height: 1.8;
     //max-width: 38em;
     margin: auto;
     color: $color-text;
@@ -41,7 +42,8 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    line-height: 1.25;
+    //line-height: 1.25;
+    line-height: 1.4;
     font-family: $font-family-heading;
     font-weight: 500;
     margin-top: 3rem;

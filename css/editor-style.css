@@ -1,5 +1,8 @@
 body {
   font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+  line-height: 1.618;
+  margin: auto;
+  color: #222222;
 }
 
 h1, h2, h3, h4, h5, h6 {
