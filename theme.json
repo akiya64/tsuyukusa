@@ -16,12 +16,30 @@
 				{
 					"fontFamily": "monofur, sans-serif",
 					"slug": "monofur",
-					"name": "Monofur"
+					"name": "Monofur",
+					"fontFace": [
+						{
+							"fontFamily": "monofur",
+							"src": [
+								"file:./fonts/monofur.woff2",
+								"file:./fonts/monofur.ttf"
+							]
+						}
+					]
 				},
 				{
-					"fontFamily": "IBM Plex Mono, sans-serif",
+					"fontFamily": "IBMPlex Mono, sans-serif",
 					"slug": "ibm-plex-mono",
-					"name": "IBMPlex Mono"
+					"name": "IBMPlex Mono",
+					"fontFace": [
+						{
+							"fontFamily": "IBMPlex Mono",
+							"src": [
+								"file:./fonts/IBMPlexMono-Regular.woff2",
+								"file:./fonts/IBMPlexMono-Regular.woff"
+							]
+						}
+					]
 				}
 			]
 		},
