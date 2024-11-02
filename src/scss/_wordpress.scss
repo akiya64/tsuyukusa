@@ -11,12 +11,6 @@ $breakpoints: (
   }
 }
 
-body {
-  @include mq( only-sm ){
-    width: calc( 100vw - 2.5em );
-  }
-}
-
 // Site Header and Site footer
 .wp-site-blocks > header {
   .wp-block-columns {
