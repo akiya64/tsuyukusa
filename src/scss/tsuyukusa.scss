@@ -15,3 +15,14 @@ $font-family-heading: $font-family-base;
 @import "sakura";
 @import "wordpress";
 
+.text-white-rim {
+  text-shadow:
+    2px 2px 0 #FFF,
+    -2px -2px 0 #FFF,
+    -2px 2px 0 #FFF,
+    2px -2px 0 #FFF,
+    0px 2px 0 #FFF,
+    0 -2px 0 #FFF,
+    -2px 0 0 #FFF,
+    2px 0 0 #FFF;
+}

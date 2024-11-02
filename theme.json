@@ -151,6 +151,20 @@
 						}
 					}
 				}
+			},
+			"core/cover": {
+				"elements" :{
+					"h1": {
+						"typography": {
+							"fontSize": "clamp(3.5rem, 9.3333vw, 7rem)"
+						}
+					},
+					"h2": {
+						"typography": {
+							"fontSize": "clamp(1.5rem, 1rem + 1.3333vw, 2rem)"
+						}
+					}
+				}
 			}
 		}
 	},
