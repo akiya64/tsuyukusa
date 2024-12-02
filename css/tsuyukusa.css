@@ -10,6 +10,7 @@ html {
 }
 
 body {
+  width: calc(100vw - 2.5em);
   font-size: 1.8rem;
   line-height: 1.8;
   margin: auto;
@@ -233,12 +234,6 @@ label, legend, fieldset {
     font-weight: 600;
 }
 */
-@media screen and (max-width: 600px) {
-  body {
-    width: calc(100vw - 2.5em);
-  }
-}
-
 .wp-site-blocks > header .wp-block-columns {
   margin: 0;
 }
