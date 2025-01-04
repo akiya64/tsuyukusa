@@ -4,12 +4,12 @@
 	"settings": {
 		"layout": {
 			"contentSize": "720px",
-			"wideSize": "1200px",
-			"blockGap": true
+			"wideSize": "1200px"
 		},
 		"spacing": {
 			"margin": true,
-			"padding": true
+			"padding": true,
+			"blockGap": true
 		},
 		"typography": {
 			"fontFamilies": [
@@ -109,6 +109,9 @@
 		}
 	],
 	"styles": {
+		"spacing": {
+			"blockGap": "2rem"
+		},
 		"elements": {
 			"link": {
 				"typography": {
