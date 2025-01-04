@@ -7,14 +7,14 @@
 /* Body */
 
 html {
-    font-size: 62.5%; // So that root size becomes 10px
+    font-size: 18px; // So that root size becomes 10px
     font-family: $font-family-base;
 }
 
 body {
     width: calc( 100vw - 2.5em );
     // $font-size-base must be a rem value
-    font-size: $font-size-base;
+    //font-size: $font-size-base;
     //line-height: 1.618;
     line-height: 1.8;
     //max-width: 38em;
@@ -42,6 +42,7 @@ body {
     word-break: break-word;
 }
 
+/*
 h1, h2, h3, h4, h5, h6 {
     //line-height: 1.25;
     line-height: 1.4;
@@ -58,7 +59,9 @@ h3 { font-size: 1.75em }
 h4 { font-size: 1.5em }
 h5 { font-size: 1.25em }
 h6 { font-size: 1em }
+*/
 
+/*
 p {
     margin-top: 0px;
     margin-bottom: 2.5rem;
@@ -71,7 +74,7 @@ small, sub, sup {
 hr {
     border-color: $color-blossom;
 }
-/*
+
 a {
     text-decoration: none;
     color: $color-blossom;
@@ -130,7 +133,6 @@ pre {
     margin-bottom: 2.5rem;
     font-size: 0.9em;
 }
-
 code, kbd, samp {
     font-size: 0.9em;
     // padding: 0 0.5em;

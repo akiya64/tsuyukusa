@@ -130,9 +130,48 @@
 						"text": "var:preset|color|bengara"
 					}
 				}
+			},
+			"h1":{
+				"typography": {
+					"fontSize": "2.828rem"
+				}
+			},
+			"h2": {
+				"typography": {
+					"fontSize": "2.2rem"
+				}
+			},
+			"h3": {
+				"typography": {
+					"fontSize": "1.414rem"
+				}
+			},
+			"h4": {
+				"typography": {
+					"fontSize": "1.414rem"
+				}
+			},
+			"h5": {
+				"typography": {
+					"fontSize": "1.414rem"
+				}
+			},
+			"h6": {
+				"typography": {
+					"fontSize": "2.35rem"
+				}
 			}
 		},
 		"blocks": {
+			"core/heading": {
+				"spacing": {
+					"margin": "2rem 0 1rem"
+				},
+				"typography": {
+					"lineHeight": "1.4",
+					"fontWeight": "500"
+				}
+			},
 			"core/code": {
 				"typography": {
 					"fontFamily": "var:preset|font-family|ibm-plex-mono"
@@ -164,6 +203,13 @@
 							"fontSize": "clamp(1.5rem, 1rem + 1.3333vw, 2rem)"
 						}
 					}
+				}
+			},
+			"core/post-title": {
+				"typography": {
+					"lineHeight": "1.4",
+					"fontWeight": "500",
+					"fontSize": "2.828rem"
 				}
 			}
 		}
