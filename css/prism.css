@@ -18,6 +18,7 @@ pre[class*="language-"] {
 	word-break: normal;
 	word-wrap: normal;
 	line-height: 1.5;
+	leter-spacing: 0;
 
 	-moz-tab-size: 4;
 	-o-tab-size: 4;
@@ -32,7 +33,6 @@ pre[class*="language-"] {
 /* Code blocks */
 pre[class*="language-"] {
 	position: relative;
-	margin: .5em 0;
 	overflow: visible;
 	padding: 1px;
 }
@@ -64,18 +64,6 @@ pre[class*="language-"] {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-	margin-bottom: 1em;
-}
-
-/* Inline code */
-:not(pre) > code[class*="language-"] {
-	position: relative;
-	padding: .2em;
-	border-radius: 0.3em;
-	color: #c92c2c;
-	border: 1px solid rgba(0, 0, 0, 0.1);
-	display: inline;
-	white-space: normal;
 }
 
 /**
