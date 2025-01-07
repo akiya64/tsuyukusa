@@ -45,8 +45,9 @@
     "ttf2woff2": "^6.0.1"
   },
   "scripts": {
-    "scss": "sass --no-source-map src/scss:css",
-    "scss:watch": "sass --no-source-map --watch src/scss:css",
+    "scss": "sass src/scss:css",
+    "scss:prod": "sass --no-source-map src/scss:css",
+    "scss:watch": "sass --watch src/scss:css",
     "watch": "concurrently \"npm:scss:watch\" \"npm:browser-sync\"",
     "browser-sync": "browser-sync start --proxy http://localhost:8888 --files=\"./css/tsuyukusa.css\" --files=\"./theme.json\"",
     "woff": "node ./src/fonts/convertWoff2.js"
