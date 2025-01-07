@@ -124,15 +124,32 @@ td, th {
   border: 2px solid var(--wp--preset--color--tsuyukusa);
 }
 
-li.wp-block-navigation-item {
-  margin-bottom: 0;
-}
-
 .wp-block-navigation__responsive-container-content {
   gap: 1em;
 }
 .wp-block-navigation__responsive-container.has-modal-open.is-menu-open {
   padding: 1.5rem;
+}
+
+.entry-content .wp-block-heading:not(:first-child) {
+  margin-top: 3rem;
+}
+.entry-content .wp-block-heading {
+  position: relative;
+  border-bottom: 1px solid #333;
+  padding-bottom: 0.25em;
+}
+.entry-content h2.wp-block-heading {
+  border-bottom: 2px solid #ccc;
+}
+.entry-content h2.wp-block-heading:before {
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 20%;
+  height: 4px;
+  content: "";
+  background: #257bcc;
 }
 
 .alignfull {
@@ -151,26 +168,9 @@ textarea, select, input,
   border-radius: 5px;
 }
 
-.wp-block-heading {
-  position: relative;
-  border-bottom: 1px solid #333;
-  padding-bottom: 0.25em;
-}
-
-h2.wp-block-heading {
-  border-bottom: 2px solid #ccc;
-}
-h2.wp-block-heading:before {
-  position: absolute;
-  left: 0;
-  bottom: -4px;
-  width: 20%;
-  height: 4px;
-  content: "";
-  background: #257bcc;
-}
-
 /* helper */
 .text-white-rim {
   text-shadow: 2px 2px 0 #FFF, -2px -2px 0 #FFF, -2px 2px 0 #FFF, 2px -2px 0 #FFF, 0px 2px 0 #FFF, 0 -2px 0 #FFF, -2px 0 0 #FFF, 2px 0 0 #FFF;
 }
+
+/*# sourceMappingURL=tsuyukusa.css.map */

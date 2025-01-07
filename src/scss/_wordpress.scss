@@ -55,11 +55,7 @@ $breakpoints: (
   }
 }
 
-// Block elements
-li.wp-block-navigation-item {
-  margin-bottom: 0;
-}
-
+// Navigation
 .wp-block-navigation__responsive-container {
   &-content {
     gap: 1em;
@@ -67,6 +63,33 @@ li.wp-block-navigation-item {
 
   &.has-modal-open.is-menu-open {
     padding: 1.5rem;
+  }
+}
+
+// entry content blocks
+.entry-content {
+  .wp-block-heading:not(:first-child) {
+    margin-top: 3rem;
+  }
+
+  .wp-block-heading {
+    position: relative;
+    border-bottom: 1px solid #333;
+    padding-bottom: 0.25em;
+  }
+
+  h2.wp-block-heading {
+    border-bottom: 2px solid #ccc;
+
+    &:before {
+      position: absolute;
+      left: 0;
+      bottom: -4px;
+      width: 20%;
+      height: 4px;
+      content: '';
+      background: $color-blossom;
+    }
   }
 }
 

@@ -9,28 +9,6 @@ $color-text: #333333;
 @import "base";
 @import "wordpress";
 
-.wp-block-heading {
-  position: relative;
-  border-bottom: 1px solid #333;
-  padding-bottom: 0.25em;
-
-}
-
-
-h2.wp-block-heading {
-  border-bottom: 2px solid #ccc;
-
-  &:before {
-      position: absolute;
-      left: 0;
-      bottom: -4px;
-      width: 20%;
-      height: 4px;
-      content: '';
-      background: $color-blossom;
-    }
-}
-
 /* helper */
 .text-white-rim {
   text-shadow:
