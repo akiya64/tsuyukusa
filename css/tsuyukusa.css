@@ -168,7 +168,10 @@ textarea, select, input,
   border-radius: 5px;
 }
 
-/* helper */
+.is-layout-flex.column-gap-1 {
+  column-gap: 1rem !important;
+}
+
 .text-white-rim {
   text-shadow: 2px 2px 0 #FFF, -2px -2px 0 #FFF, -2px 2px 0 #FFF, 2px -2px 0 #FFF, 0px 2px 0 #FFF, 0 -2px 0 #FFF, -2px 0 0 #FFF, 2px 0 0 #FFF;
 }
