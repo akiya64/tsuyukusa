@@ -214,6 +214,13 @@
 				"typography": {
 					"lineHeight": "1.4",
 					"fontWeight": "500",
+					"fontSize": "2.2rem"
+				}
+			},
+			"core/query-title": {
+				"typography": {
+					"lineHeight": "1.4",
+					"fontWeight": "500",
 					"fontSize": "2.828rem"
 				}
 			}
