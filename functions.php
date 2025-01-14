@@ -8,6 +8,17 @@ add_action(
 		wp_enqueue_style(
 			'tsuyukusa',
 			get_template_directory_uri() . '/css/tsuyukusa.css',
+			array(),
+			'0.10.0',
+			'all'
+		);
+
+		wp_enqueue_style(
+			'prism-css',
+			get_template_directory_uri() . '/css/prism.css',
+			array(),
+			'0.10.0',
+			'all'
 		);
 
 		wp_enqueue_script(
@@ -15,11 +26,6 @@ add_action(
 			get_template_directory_uri() . '/js/prism.js',
 			array('jquery'),
 			true
-		);
-
-		wp_enqueue_style(
-			'prism-css',
-			get_template_directory_uri() . '/css/prism.css'
 		);
 	}
 );
