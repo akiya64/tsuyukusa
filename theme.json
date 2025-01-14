@@ -4,12 +4,12 @@
 	"settings": {
 		"layout": {
 			"contentSize": "720px",
-			"wideSize": "1200px",
-			"blockGap": true
+			"wideSize": "1200px"
 		},
 		"spacing": {
 			"margin": true,
-			"padding": true
+			"padding": true,
+			"blockGap": true
 		},
 		"typography": {
 			"fontFamilies": [
@@ -109,6 +109,9 @@
 		}
 	],
 	"styles": {
+		"spacing": {
+			"blockGap": "2rem"
+		},
 		"elements": {
 			"link": {
 				"typography": {
@@ -130,15 +133,54 @@
 						"text": "var:preset|color|bengara"
 					}
 				}
+			},
+			"h1":{
+				"typography": {
+					"fontSize": "2.828rem"
+				}
+			},
+			"h2": {
+				"typography": {
+					"fontSize": "2.2rem"
+				}
+			},
+			"h3": {
+				"typography": {
+					"fontSize": "1.414rem"
+				}
+			},
+			"h4": {
+				"typography": {
+					"fontSize": "1.414rem"
+				}
+			},
+			"h5": {
+				"typography": {
+					"fontSize": "1.414rem"
+				}
+			},
+			"h6": {
+				"typography": {
+					"fontSize": "1.414rem"
+				}
 			}
 		},
 		"blocks": {
+			"core/heading": {
+				"typography": {
+					"lineHeight": "1.4",
+					"fontWeight": "500"
+				}
+			},
 			"core/code": {
 				"typography": {
 					"fontFamily": "var:preset|font-family|ibm-plex-mono"
 				}
 			},
 			"core/site-title": {
+				"typography": {
+					"fontWeight": "500"
+				},
 				"elements" : {
 					"link": {
 						"typography": {
@@ -156,14 +198,30 @@
 				"elements" :{
 					"h1": {
 						"typography": {
+							"fontWeight": "500",
 							"fontSize": "clamp(3.5rem, 9.3333vw, 7rem)"
 						}
 					},
 					"h2": {
 						"typography": {
+							"fontWeight": "500",
 							"fontSize": "clamp(1.5rem, 1rem + 1.3333vw, 2rem)"
 						}
 					}
+				}
+			},
+			"core/post-title": {
+				"typography": {
+					"lineHeight": "1.4",
+					"fontWeight": "500",
+					"fontSize": "2.2rem"
+				}
+			},
+			"core/query-title": {
+				"typography": {
+					"lineHeight": "1.4",
+					"fontWeight": "500",
+					"fontSize": "2.828rem"
 				}
 			}
 		}

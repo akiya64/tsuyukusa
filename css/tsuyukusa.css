@@ -1,103 +1,27 @@
-/* Sakura.css v1.5.0
- * ================
- * Minimal css theme.
- * Project: https://github.com/oxalorg/sakura/
- */
-/* Body */
 html {
-  font-size: 62.5%;
-  font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+  font-size: 18px;
+  font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
 }
 
 body {
   width: calc(100vw - 2.5em);
-  font-size: 1.8rem;
-  line-height: 1.8;
+  line-height: 2;
   margin: auto;
-  color: #222222;
+  color: #333333;
 }
 
 @media (max-width: 684px) {
   body {
-    font-size: 1.53rem;
+    font-size: 15.3px;
   }
 }
 @media (max-width: 382px) {
   body {
-    font-size: 1.35rem;
+    font-size: 13.5px;
   }
 }
-h1, h2, h3, h4, h5, h6 {
-  line-height: 1.4;
-  font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
-  font-weight: 500;
-  margin-top: 3rem;
-  margin-bottom: 1.5rem;
-  overflow-wrap: break-word;
-  word-wrap: break-word;
-  -ms-word-break: break-all;
-  word-break: break-word;
-}
-
-h1 {
-  font-size: 2.35em;
-}
-
-h2 {
-  font-size: 2em;
-}
-
-h3 {
-  font-size: 1.75em;
-}
-
-h4 {
-  font-size: 1.5em;
-}
-
-h5 {
-  font-size: 1.25em;
-}
-
-h6 {
-  font-size: 1em;
-}
-
-p {
-  margin-top: 0px;
-  margin-bottom: 2.5rem;
-}
-
-small, sub, sup {
-  font-size: 75%;
-}
-
-hr {
-  border-color: #257bcc;
-}
-
-/*
-a {
-    text-decoration: none;
-    color: $color-blossom;
-
-    &:visited {
-        color: darken($color-blossom, 10%);
-    }
-
-    &:hover {
-        color: $color-fade;
-    }
-}
-*/
 ul {
   padding-left: 1.4em;
-  margin-top: 0px;
-  margin-bottom: 2.5rem;
-}
-
-li {
-  margin-bottom: 0.4em;
 }
 
 blockquote {
@@ -108,7 +32,6 @@ blockquote {
   padding-bottom: 0.8em;
   padding-right: 0.8em;
   border-left: 5px solid #257bcc;
-  margin-bottom: 2.5rem;
   background-color: #f7f7f7;
 }
 
@@ -119,27 +42,32 @@ blockquote p {
 img, video {
   height: auto;
   max-width: 100%;
-  margin-top: 0px;
-  margin-bottom: 2.5rem;
 }
 
 /* Pre and Code */
 pre {
-  background-color: #f7f7f7;
   display: block;
   padding: 1em;
   overflow-x: auto;
-  margin-top: 0px;
-  margin-bottom: 2.5rem;
-  font-size: 0.9em;
 }
 
-code, kbd, samp {
+kbd, samp {
   font-size: 0.9em;
   padding: 0.2em 0.5em;
   background-color: #efefef;
   white-space: pre-wrap;
   border-radius: 0.2em;
+}
+
+/* Inline code */
+:not(pre) > code {
+  background-color: #efefef;
+  border-radius: 0.3em;
+  position: relative;
+  padding: 0.2em 0.3em;
+  color: #c02a2a;
+  display: inline;
+  white-space: normal;
 }
 
 pre > code {
@@ -155,7 +83,6 @@ table {
   text-align: justify;
   width: 100%;
   border-collapse: collapse;
-  margin-bottom: 2rem;
 }
 
 td, th {
@@ -163,77 +90,6 @@ td, th {
   border-bottom: 1px solid #f7f7f7;
 }
 
-/* Buttons, forms and input */
-/*
-input, textarea {
-    border: 1px solid $color-text;
-
-    &:focus {
-        border: 1px solid $color-blossom;
-    }
-}
-
-textarea {
-    width: 100%;
-}
-
-.button, button, input[type="submit"], input[type="reset"], input[type="button"], input[type=file]::file-selector-button {
-    display: inline-block;
-    padding: 5px 10px;
-    text-align: center;
-    text-decoration: none;
-    white-space: nowrap;
-
-    background-color: $color-blossom;
-    color: $color-bg;
-    border-radius: 1px;
-    border: 1px solid $color-blossom;
-    cursor: pointer;
-    box-sizing: border-box;
-
-    &[disabled] {
-        cursor: default;
-        opacity: .5;
-    }
-
-    &:hover {
-        background-color: $color-fade;
-        color: $color-bg;
-        outline: 0;
-    }
-
-    &:focus-visible {
-        outline-style: solid;
-        outline-width: 2px;
-    }
-}
-
-textarea, select, input {
-    color: $color-text;
-    padding: 6px 10px; // The 6px vertically centers text on FF, ignored by Webkit
-    margin-bottom: 10px;
-    background-color: $color-bg-alt;
-    border: 1px solid $color-bg-alt;
-    border-radius: 4px;
-    box-shadow: none;
-    box-sizing: border-box;
-
-    &:focus {
-        border: 1px solid $color-blossom;
-        outline: 0;
-    }
-}
-
-input[type="checkbox"]:focus {
-    outline: 1px dotted $color-blossom;
-}
-
-label, legend, fieldset {
-    display: block;
-    margin-bottom: .5rem;
-    font-weight: 600;
-}
-*/
 .wp-site-blocks > header .wp-block-columns {
   margin: 0;
 }
@@ -268,15 +124,32 @@ label, legend, fieldset {
   border: 2px solid var(--wp--preset--color--tsuyukusa);
 }
 
-li.wp-block-navigation-item {
-  margin-bottom: 0;
-}
-
 .wp-block-navigation__responsive-container-content {
   gap: 1em;
 }
 .wp-block-navigation__responsive-container.has-modal-open.is-menu-open {
   padding: 1.5rem;
+}
+
+.entry-content .wp-block-heading:not(:first-child) {
+  margin-top: 3rem;
+}
+.entry-content .wp-block-heading {
+  position: relative;
+  border-bottom: 1px solid #333;
+  padding-bottom: 0.25em;
+}
+.entry-content h2.wp-block-heading {
+  border-bottom: 2px solid #ccc;
+}
+.entry-content h2.wp-block-heading:before {
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 20%;
+  height: 4px;
+  content: "";
+  background: #257bcc;
 }
 
 .alignfull {
@@ -295,6 +168,12 @@ textarea, select, input,
   border-radius: 5px;
 }
 
+.is-layout-flex.column-gap-1 {
+  column-gap: 1rem !important;
+}
+
 .text-white-rim {
   text-shadow: 2px 2px 0 #FFF, -2px -2px 0 #FFF, -2px 2px 0 #FFF, 2px -2px 0 #FFF, 0px 2px 0 #FFF, 0 -2px 0 #FFF, -2px 0 0 #FFF, 2px 0 0 #FFF;
 }
+
+/*# sourceMappingURL=tsuyukusa.css.map */

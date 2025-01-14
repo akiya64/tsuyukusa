@@ -1,0 +1,17 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"title": "Short Accent",
+	"slug": "short-accent",
+	"blockTypes": [
+		"core/separator"
+	],
+	"styles": {
+		"border": {
+			"top": {
+				"width": "4px"
+			}
+		},
+		"css": "&{\n\twidth: 5rem\n\t;}"
+	}
+}
