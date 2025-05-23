@@ -1,13 +1,4 @@
-$font-size-base: 18px;
-
-$color-blossom: #257bcc;
-$color-bg: #ffffff;
-$color-bg-alt: #f7f7f7;
-$color-bg-inline-code: #efefef;
-$color-text: #333333;
-
-@import "base";
-@import "wordpress";
-@import "compat";
-@import "helper";
-
+@use "base";
+@use "wordpress";
+@use "compat";
+@use "helper";

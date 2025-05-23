@@ -1,12 +1,14 @@
-// Specialized style for WordPress
+@use "sass:map";
+@use "color";
 
+// Specialized style for WordPress
 $breakpoints: (
   'only-sm': 'screen and (max-width: 600px)',
   'up-md': 'screen and (min-width: 601px)',
 ) !default;
 
 @mixin mq($breakpoint: up-md) {
-  @media #{map-get($breakpoints, $breakpoint)} {
+  @media #{map.get($breakpoints, $breakpoint)} {
     @content;
   }
 }
@@ -88,7 +90,7 @@ $breakpoints: (
       width: 20%;
       height: 4px;
       content: '';
-      background: $color-blossom;
+      background: color.$blossom;
     }
   }
 }
