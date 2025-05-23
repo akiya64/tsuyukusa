@@ -35,6 +35,7 @@ add_action(
 	function( $query ){
 		if ( $query->is_main_query() && is_date() ){
 			set_query_var( 'order', 'asc' );
+			set_query_var( 'cat', '6,87');
 		}
 		return;
 	}
