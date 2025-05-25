@@ -41,6 +41,20 @@ add_action(
 	}
 );
 
+add_filter(
+	'getarchives_join',
+	function () {
+		return 'LEFT JOIN wp_term_relationships ON (wp_posts.ID = wp_term_relationships.object_id)';
+	}
+);
+
+add_filter(
+	'getarchives_where',
+	function () {
+		return 'WHERE ( wp_term_relationships.term_taxonomy_id IN (6,87) )';
+	}
+);
+
 register_block_style(
 	'core/avatar',
 	array(
