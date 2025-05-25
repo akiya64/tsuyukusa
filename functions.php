@@ -9,7 +9,7 @@ add_action(
 			'tsuyukusa',
 			get_template_directory_uri() . '/css/tsuyukusa.css',
 			array(),
-			'0.10.0',
+			'1.0.0',
 			'all'
 		);
 
@@ -17,7 +17,7 @@ add_action(
 			'prism-css',
 			get_template_directory_uri() . '/css/prism.css',
 			array(),
-			'0.10.0',
+			'1.0.0',
 			'all'
 		);
 
